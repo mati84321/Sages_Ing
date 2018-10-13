@@ -1,0 +1,121 @@
+    1  wget http://download.virtualbox.org/virtualbox/5.1.18/virtualbox-5.1_5.1.18-114002~Ubuntu~xenial_amd64.deb
+    2  sudo VBoxManage extpack install --replace virtualbox-5.1_5.1.18-114002~Ubuntu~xenial_amd64.deb 
+    3  ls
+    4  rm virtualbox-5.1_5.1.18-114002~Ubuntu~xenial_amd64.deb 
+    5  wget https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh
+    6  bash Anaconda3-4.3.1-Linux-x86_64.sh 
+    7  exit
+    8  java
+    9  conda search pytho
+   10  conda search python
+   11  conda create --name python35 python=3.5.3
+   12  source activate python35
+   13  wget http://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.7.tgz
+   14  tar tzvf spark-2.1.0-bin-hadoop2.7.tgz 
+   15  tar xzvf spark-2.1.0-bin-hadoop2.7.tgz 
+   16  ln -s spark-2.1.0-bin-hadoop2.7 spark
+   17  ll
+   18  vim .bashrc
+   19  sudo apt install vim
+   20  mc
+   21  sudo apt install mc
+   22  vim .bashrc
+   23  ls spark/python/lib/py4j-0.10.4-src.zip 
+   24  vim .bashrc
+   25  exit
+   26  source activate python35
+   27  python
+   28  exit
+   29  sudo add-apt-repository ppa:webupd8team/java
+   30  sudo apt-get update
+   31  sudo apt-get install oracle-java8-installer
+   32  java -version
+   33  ls
+   34  rm spark-2.1.0-bin-hadoop2.7.tgz 
+   35  rm Anaconda3-4.3.1-Linux-x86_64.sh 
+   36  source activate python35
+   37  python
+   38  exit
+   39  vim tst.txt
+   40  python
+   41  exit
+   42  history | less
+   43  vim .bashrc
+   44  history | less
+   45  sudo add-apt-repository ppa:webupd8team/atom
+   46  sudo apt update
+   47  sudo apt list --upgradable
+   48  sudo apt install atom
+   49  atom 
+   50  exit
+   51  df -h
+   52  history | less
+   53  exit
+   54  tar tzvf Pobrane/pycharm-community-2016.3.3.tar.gz pycharm-community-2016.3.3/
+   55  tar xzvf Pobrane/pycharm-community-2016.3.3.tar.gz 
+   56  cd Pobrane/
+   57  ls
+   58  rm pycharm-community-2016.3.3.tar.gz 
+   59  cd ..
+   60  ls
+   61  cd pycharm-community-2016.3.3/
+   62  ls
+   63  vim Install-Linux-tar.txt 
+   64  bin/pycharm.sh 
+   65  cd ..
+   66  ls
+   67  cd PycharmProjects/
+   68  ls
+   69  rm -rf untitled/
+   70  cd ..
+   71  l
+   72  exit
+   73  env | grep -i user
+   74  $PATH
+   75  echo $PATH
+   76  $PWD
+   77  git status
+   78  touch .gitignore
+   79  nano
+   80  nano .gitignore
+   81  git status
+   82  ls -al .git
+   83  git status
+   84  cat .gitignore 
+   85  nano .gitignore 
+   86  git status
+   87  git add .
+   88  git status
+   89  git commit "Dodałam plik"
+   90  git commit -m "Dodałam plik"
+   91  git push origin master
+   92  git status
+   93  git add .
+   94  git commit -m "Zmieniono plik jupyter"
+   95  git push origin master
+   96  git status
+   97  git add .
+   98  git commit -m "Dodałam zmienne znakowe"
+   99  git push origin master
+  100  cd tmp
+  101  pwd
+  102  cd tmp/
+  103  cd /tmp
+  104  cd ~/
+  105  mkdit tmp/
+  106  pwd
+  107  mkdir tmp/
+  108  pwd
+  109  cd tmp
+  110  git clone https://github.com/pazikkamil/sages_kurs_13102018.git
+  111  cd ~/
+  112  git
+  113  git add
+  114  git status
+  115  cd ~/
+  116  pwd
+  117  cd code
+  118  cd Sages_Ing
+  119  git status
+  120  git add
+  121  history > history_bash
